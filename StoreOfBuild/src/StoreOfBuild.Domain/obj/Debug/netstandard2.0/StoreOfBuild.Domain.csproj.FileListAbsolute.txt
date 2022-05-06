@@ -1,0 +1,9 @@
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\bin\Debug\netstandard2.0\StoreOfBuild.Domain.deps.json
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\bin\Debug\netstandard2.0\StoreOfBuild.Domain.dll
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\bin\Debug\netstandard2.0\StoreOfBuild.Domain.pdb
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.csprojAssemblyReference.cache
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.csproj.CoreCompileInputs.cache
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.AssemblyInfoInputs.cache
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.AssemblyInfo.cs
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.dll
+G:\Meu Drive\StoreOfBuild-master\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.pdb
