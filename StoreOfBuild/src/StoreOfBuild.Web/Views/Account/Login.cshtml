@@ -9,7 +9,7 @@
     <div class="col-md-8">
         <section>
             <form asp-controller="Account" asp-action="Login" method="post" class="form-horizontal">
-                <h1>Make login.</h4>
+                <h4>Make login.</h4>
                 <hr />
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group">
@@ -32,9 +32,11 @@
                     </div>
                 </div>
                 <p>
+                    @*TODO*@
                     <a asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]">Register as a new user?</a>
                 </p>
                 <p>
+                    @*TODO*@
                     <a asp-action="ForgotPassword">Forgot your password?</a>
                 </p>
             </form>

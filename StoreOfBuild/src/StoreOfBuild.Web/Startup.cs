@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using StoreOfBuild.DI;
 using StoreOfBuild.Domain;
-using StoreOfBuild.Web.Filters;
 
 namespace StoreOfBuild.Web
 {
@@ -31,11 +26,10 @@ namespace StoreOfBuild.Web
         public void ConfigureServices(IServiceCollection services)
         {
             Bootstrap.Configure(services, Configuration.GetConnectionString("DefaultConnection"));
-            
+
             // Add framework services.
-            services.AddMvc(config => {
-                config.Filters.Add(typeof(CustomExceptionFilter));
-            });
+            services.AddMvc();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +43,7 @@ namespace StoreOfBuild.Web
                 var unitOfWork = (IUnitOfWork)context.RequestServices.GetService(typeof(IUnitOfWork));
                 await unitOfWork.Commit();
             });
-            
+
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 

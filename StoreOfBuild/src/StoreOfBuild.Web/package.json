@@ -1,5 +1,5 @@
 {
-  "name": "StoreOfBuild.Web",
+  "name": "store_web_build",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
